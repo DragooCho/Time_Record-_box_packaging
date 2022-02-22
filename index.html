@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>calculatePricePerCapacity</title>
+    </head>
+    <body>
+        <h1>박스 포장 예상시간표 생성기</h1>
+        <form>
+            <h2>1BOX 당 걸리는 시간</h2>
+            <p>
+                1시간
+                <input
+                    id="onePackagingTime"
+                    type="number"
+                    placeholder="1분에서 59분 사이를 정해 적으세요"
+                />분
+            </p>
+
+            <h2>완성할 박스수량</h2>
+            <p>
+                <input
+                    id="XXBox"
+                    type="number"
+                    placeholder="최소 1박스 최대 50박스 까지 적으세요"
+                />
+                BOX
+            </p>
+
+            <h2>포장 시작 시간</h2>
+            <p>
+                <input
+                    id="startingHoursTime"
+                    type="number"
+                    placeholder="0~23시까지 포장작업 시각을 적으세요"
+                />
+                시
+                <input
+                    id="startingTime"
+                    type="number"
+                    placeholder="0~60분까지 포장작업 시각을 적으세요"
+                />
+                분
+            </p>
+
+            <button id="btn">리스트 생성버튼</button>
+        </form>
+        <h2>
+            <p class="result_window_title">계산대기중</p>
+            <h4>🤔🤔</h4>
+        </h2>
+    </body>
+    <script src="calculator.js"></script>
+</html>

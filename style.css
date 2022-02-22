@@ -1,0 +1,17 @@
+h1 {
+    font-size: 2.5rem;
+}
+input {
+    height: 30px;
+    width: 300px;
+}
+button {
+    border-radius: 1rem;
+    font-size: 2rem;
+    height: 6rem;
+    width: 13rem;
+}
+p {
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+}

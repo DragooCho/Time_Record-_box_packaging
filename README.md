@@ -1,4 +1,3 @@
-# calculatePricePerCapacity
+# Time_Record-\_box_packaging
 
-100ml당 가격을 알고 싶을 때 제품 용량을 계산하는 간단한 프로그램
-# Time_Record-_box_packaging
+박스 포장의 시간경과를 계산하는 간단한 프로그램
